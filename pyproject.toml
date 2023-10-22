@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "hommework-app"
+version = "0.1.0"
+description = ""
+authors = ["Koshak <kokolen77@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.103.2"
+uvicorn = "^0.23.2"
+pydantic-settings = "^2.0.3"
+validators = "^0.22.0"
+httpx = "^0.25.0"
+pytest = "^7.4.2"
+black = "^23.10.0"
+flake8 = "^6.1.0"
+mypy = "^1.6.1"
+pyproject-flake8 = "^6.1.0"
+pylint = "^3.0.1"
+bandit = "^1.7.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
